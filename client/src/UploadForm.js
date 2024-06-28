@@ -32,7 +32,7 @@ const UploadForm = () => {
       <div>
         {matches.map((match, index) => (
           <div key={index}>
-            <p>{match.team1.name} ({match.team1.rating}) vs {match.team2.name} ({match.team2.rating})</p>
+            <p>{match.team1?.name} ({match.team1?.team}-{match.team1?.rating}) vs {match.team2?.name} ({match.team2?.team}-{match.team2?.rating})</p>
           </div>
         ))}
       </div>

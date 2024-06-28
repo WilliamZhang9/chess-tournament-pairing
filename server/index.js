@@ -24,6 +24,7 @@ app.post('/upload', upload.single('file'), (req, res) => {
 });
 
 function groupPlayers(players) {
+  console.log(players);
   players.sort((a, b) => b.rating - a.rating);
 
   const teams = {};
