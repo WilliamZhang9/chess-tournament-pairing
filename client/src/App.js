@@ -6,7 +6,7 @@ import UploadForm from './UploadForm';
 function App() {
   return (
     <div className="App">
-      <h1>Chess Tournament Grouping</h1>
+      <h1>Chess Tournament Pairing</h1>
       <UploadForm />
     </div>
   );
