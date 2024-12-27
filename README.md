@@ -18,9 +18,9 @@ Pairings are optimized based on a set of prioritized criteria:
 
 ## Start Node Server
 ##### cd server
-##### nmp start
+##### npm start
 
 ## Start Client
 ##### cd client
-##### nmp start
+##### npm start
 
